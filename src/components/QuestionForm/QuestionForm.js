@@ -62,6 +62,9 @@ export default class QuestionForm extends React.Component{
       title:this.state.question,
       voteCount:0
     }
+    if(this.state.description.trim()==''&&this.state.question.trim()==''){
+      return
+    }
     this.props.onAdd(item)
     this.setState({
       question:'',
