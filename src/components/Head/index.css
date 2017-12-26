@@ -1,0 +1,36 @@
+.top_wrap {
+  background: #eee;
+  padding: 60px 0 20px 0;
+  margin-bottom: 20px;
+  color:#333;
+}
+.head_wrap {
+  width:800px;
+  margin:0 auto;
+}
+.clearfix:after {
+  clear:both;
+  content:"";
+  display:block;
+}
+.head h1 {
+  text-align:center;
+  font-size:64px;
+  font-weight:400;
+}
+.head button.add {
+  padding: 8px 13px;
+  color: #fff;
+  background-color: #5cb85c;
+  border: 1px solid #4cae4c;
+  border-width: 0px;
+  font-size: 16px;
+  border-radius: 5px;
+  float: right;
+  cursor:pointer;
+  outline:none;
+}
+.head .container {
+  width:800px;
+  margin:0 auto;
+}
